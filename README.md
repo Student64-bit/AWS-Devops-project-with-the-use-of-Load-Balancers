@@ -50,4 +50,4 @@ With four instances ready for testing, I split them into two different target gr
 Given that my project primarily involves HTTP traffic and does not require ultra-low latency, I chose the Application Load Balancer over a Network Load Balancer. I set up the ALB to manage traffic across the four instances. Initially, traffic between EC2 instances 1 and 2 is routed randomly, suitable for the low traffic conditions expected. For instances 3 and 4 in target group two, the ALB is configured to check for a specific query string in the request header. This setup enables directing users with the special premium key in the query string to these instances, laying the groundwork for a potential subscription service model.
 
 ## Video Demo of the finished project with the application load balancer working
-[ALB Project](https://www.youtube.com/watch?v=Q8PYNc-4RGvY)
+[ALB Project](https://youtu.be/8PYNc-4RGvY)
