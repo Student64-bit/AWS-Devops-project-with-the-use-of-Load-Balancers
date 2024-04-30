@@ -1,7 +1,7 @@
 # AWS Load Balancer Project - DevOps
 
 ## Overview
-The objective of this project is to develop a robust understanding of **EC2 instances**, **Application Load Balancers (ALB)**, and **Auto Scaling groups**. The goal is to create a highly available and high-performance traffic handling solution. Additionally, there is a plan to route traffic based on specific query strings, which could be used for a subscription service where users are directed to certain EC2 instances only if they possess a special premium key or query string. This project utilizes automation through the use of AMI images to configure cloned EC2 instances. With the integration of automation, the utilization of managed services, and the implementation of high availability and high-performance strategies using load balancers, this project provides substantial practice with DevOps methodologies.
+The objective of this project is to develop a robust understanding of **EC2 instances** and **Application Load Balancers (ALB)**. The goal is to create a highly available and high-performance traffic handling solution. Additionally, there is a plan to route traffic based on specific query strings, which could be used for a subscription service where users are directed to certain EC2 instances only if they possess a special premium key or query string. This project utilizes automation through the use of AMI images to configure cloned EC2 instances. With the integration of automation, the utilization of managed services, and the implementation of high availability and high-performance strategies using load balancers, this project provides substantial practice with DevOps methodologies.
 
 ## AWS Services Utilized
 
