@@ -28,18 +28,21 @@ I started by creating an S3 bucket and configuring it for static web hosting. Th
 
 ### 2. Setting Up the Initial EC2 Instance
 I then launched an EC2 instance and configured Apache to host the `index.html` file. This made the web content accessible via the instance's IP address.
+
 <img src="https://i.imgur.com/kNMcgA0.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
 
 ### 3. Creating an Image of My Initial EC2 Instance (AWS AMI)
 After manually installing necessary software like Apache on the original EC2 instance, I created an AMI of this instance to automate the setup process for future instances. This step significantly reduces setup time for additional instances needed for traffic management testing.
+
 <img src="https://i.imgur.com/MTl52gi.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
 
 ### 4. Load Balancer Target Groups
 With four instances ready for testing, I split them into two different target groups assigned to different availability zones (one in us-east-1 and the other in us-east-2). This configuration is intended to support health checks by the load balancer, allowing traffic redirection to available zones for enhanced availability.
+
 <img src="https://i.imgur.com/ebpEozU.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
