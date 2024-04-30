@@ -23,7 +23,6 @@ I started by creating an S3 bucket and configuring it for static web hosting. Th
 <br />
 <img src="https://i.imgur.com/O41m82w.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
-<br />
 
 ### 2. Setting Up the Initial EC2 Instance
 I then launched an EC2 instance and configured Apache to host the `index.html` file. This made the web content accessible via the instance's IP address.
@@ -36,16 +35,13 @@ After manually installing necessary software like Apache on the original EC2 ins
 
 <img src="https://i.imgur.com/MTl52gi.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
-<br />
 
 ### 4. Load Balancer Target Groups
 With four instances ready for testing, I split them into two different target groups assigned to different availability zones (one in us-east-1 and the other in us-east-2). This configuration is intended to support health checks by the load balancer, allowing traffic redirection to available zones for enhanced availability.
 
 <img src="https://i.imgur.com/ebpEozU.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
-<br />
 <img src="https://i.imgur.com/hMmERjZ.png" height="80%" width="80%" alt="Code commit permissions"/>
-<br />
 <br />
 
 ### 5. Application Load Balancer
