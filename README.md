@@ -17,7 +17,8 @@ The objective of this project is to develop a robust understanding of **EC2 inst
 ## Project Steps
 
 ### 1. Setting Up a Simple Storage Bucket (S3)
-I started by creating an S3 bucket and configuring it for static web hosting. This setup later facilitated the easy transfer of the `index.html` file from the S3 bucket to the EC2 instance using the internet, avoiding more complex file transfer methods.
+I started by creating an S3 bucket and configuring it for static web hosting. This setup later facilitated the easy transfer of the `index.html` file from the S3 bucket to the EC2 instance using the internet, insetad of using putty, winscp or scp methods that Im familar with.
+
 <img src="https://i.imgur.com/MkL0eQv.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
