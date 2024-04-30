@@ -21,7 +21,6 @@ I started by creating an S3 bucket and configuring it for static web hosting. Th
 
 <img src="https://i.imgur.com/MkL0eQv.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
-<br />
 <img src="https://i.imgur.com/O41m82w.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
@@ -30,7 +29,6 @@ I started by creating an S3 bucket and configuring it for static web hosting. Th
 I then launched an EC2 instance and configured Apache to host the `index.html` file. This made the web content accessible via the instance's IP address.
 
 <img src="https://i.imgur.com/kNMcgA0.png" height="80%" width="80%" alt="Code commit permissions"/>
-<br />
 <br />
 
 ### 3. Creating an Image of My Initial EC2 Instance (AWS AMI)
